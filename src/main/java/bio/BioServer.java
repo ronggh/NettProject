@@ -19,7 +19,6 @@ public class BioServer {
 
         //创建ServerSocket
         ServerSocket serverSocket = new ServerSocket(kPort);
-
         System.out.println("服务器启动了");
 
         while (true) {
