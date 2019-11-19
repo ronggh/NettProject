@@ -22,7 +22,6 @@ public class BioServer {
         System.out.println("服务器启动了");
 
         while (true) {
-
             System.out.println("线程信息 id =" + Thread.currentThread().getId() + " 名字 = " + Thread.currentThread().getName());
             //监听，等待客户端连接
             System.out.println("等待连接....");
