@@ -7,7 +7,6 @@ import java.nio.channels.FileChannel;
 public class FileChannel04 {
     // transferFrom 实现文件拷贝
     public static void main(String[] args) throws Exception {
-
         //创建相关流
         FileInputStream fileInputStream = new FileInputStream("d:\\file01.txt");
         FileOutputStream fileOutputStream = new FileOutputStream("d:\\file02.txt");
