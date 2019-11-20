@@ -17,4 +17,8 @@
     * FileChannel02，使用Chennel读本地文件（上例中生成的）
     * FileChannel03，使用同一个Buffer实现文件拷贝
     * FileChannel04，使用transform，拷贝文件
+    * ByteBufferPutGet，Put/Get放入、取出顺序、类型要一致
+    * ReadOnlyBuffer, 只读的Buffer
+    * MappedByteBufferTest,让文件直接在内存(堆外内存)修改, 操作系统不需要拷贝一次
+    * ScatteringAndGatheringTest, 
 ## netty
