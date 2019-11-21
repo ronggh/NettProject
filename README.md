@@ -8,7 +8,7 @@
     * non-blocking i/o
     * JDK 1.4开始提供，包在java.nio下
     * 面向缓冲区编程
- ### nio 三大核心
+### nio 三大核心
     * channel通道
     * buffer缓冲区
     * selector选择器
