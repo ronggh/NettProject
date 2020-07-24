@@ -12,6 +12,7 @@
     * channel通道
     * buffer缓冲区
     * selector选择器
+### 示例
     * BasicBuffer, Buffer的基本使用
     * FileChannel01，使用Chennel写本地文件
     * FileChannel02，使用Chennel读本地文件（上例中生成的）
@@ -20,5 +21,7 @@
     * ByteBufferPutGet，Put/Get放入、取出顺序、类型要一致
     * ReadOnlyBuffer, 只读的Buffer
     * MappedByteBufferTest,让文件直接在内存(堆外内存)修改, 操作系统不需要拷贝一次
-    * ScatteringAndGatheringTest, 
+    * ScatteringAndGatheringTest, 可以采用buffer数组，依次写入  [分散]
+    * NioServer，NioClient,Nio
+    * GroupChatServer，GroupChatClient,群聊系统
 ## netty
